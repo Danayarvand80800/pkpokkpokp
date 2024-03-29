@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فروشگاه لوازم خانگی</title>
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="title icon" href="./title icon/1707826300931.png">
+    <script src="./js/script.js"></script>
+</head>
+<body> 
+    <div class="sarsafhe">
+        <img src="./logo/menu-burger (1).png" class="bat" type="button" onclick="openDrawer(document.querySelector('#data').innerHTML,)">
+        <p class="froshgah">فروشگاه لوازم خانگی</p>
+        <a href="#" class="fehrest">محصولات</a>
+        <img src="./logo/basket-shopping-simple (1).png" class="aks">
+        <a href="#" class="fehrest">محصولات</a>
+        <img src="./logo/basket-shopping-simple (1).png" class="aks">
+        <a href="#" class="fehrest">محصولات</a>
+        <img src="./logo/basket-shopping-simple (1).png" class="aks">
+        <a href="#" class="fehrest">محصولات</a>
+        <img src="./logo/basket-shopping-simple (1).png" class="aks">
+        <a href="#" class="fehrest">محصولات</a>
+        <img src="./logo/basket-shopping-simple (1).png" class="aks">
+        <section class="search-box">
+            <input type="text" class="search-input" placeholder="جستجو:">
+            <button class="search-button">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                  </svg>
+            </button>
+        </section>
+	<template id="data">
+		<div class="alert alert-success text-center d-flex justify-content-between">
+			فرم دریافت اطلاعات
+			<i class="fa-sharp fa-solid fa-circle-xmark fs-3" onclick="closeDrawer()"></i>
+		</div>
+		<form class="p-5">
+			<div class="mb-3">
+				<label for="exampleInputEmail1" class="form-label">آدرس ایمیل</label>
+				<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+			</div>
+			<div class="mb-3">
+				<label for="exampleInputPassword1" class="form-label">کلمه عبور</label>
+				<input type="password" class="form-control" id="exampleInputPassword1">
+			</div>
+			<div class="mb-3">
+				<label for="exampleInputPassword1" class="form-label"> تکرار کلمه عبور </label>
+				<input type="password" class="form-control" id="exampleInputPassword1">
+			</div>
+			<button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+	</template>
+    </div>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
